@@ -8,17 +8,17 @@
 
 经过检查发现之前测试的文件夹可以上传，有部分文件夹无法上传。
 
-![image-20230210153602669](./asset/typora-user-images/image-20230210153602669.png)
+![image-20230210153602669](./.asset/typora-user-images/image-20230210153602669.png)
 
 对比发现windows并无此问题，考虑与linux的特性有关。
 
-![image-20230210153702144](./asset/typora-user-images/image-20230210153702144.png)
+![image-20230210153702144](./.asset/typora-user-images/image-20230210153702144.png)
 
-![image-20230210153710130](./asset/typora-user-images/image-20230210153710130.png)
+![image-20230210153710130](./.asset/typora-user-images/image-20230210153710130.png)
 
 文件夹的权限各不相同，由于新建的账户处于旧帐户所在的组，所以部分组权限可写的，可以上传；而不可写的组，就不可上传了。
 
-![image-20230210153907583](./asset/typora-user-images/image-20230210153907583.png)
+![image-20230210153907583](./.asset/typora-user-images/image-20230210153907583.png)
 
 由于无法直接修改文件夹的归属用户（会影响产线的旧帐户异常），所以只能采取扩大权限的方案，加上文件夹的可写组权限。
 
@@ -26,7 +26,7 @@
 
 ##### 2.Linux相关文件权限知识
 
-![image-20230210155647967](./asset/typora-user-images/image-20230210155647967.png)
+![image-20230210155647967](./.asset/typora-user-images/image-20230210155647967.png)
 
 **2.1 文件权限分类**
 

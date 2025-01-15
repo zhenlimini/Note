@@ -48,5 +48,5 @@
 
 - 用户可以在ARES页面释放板，使用Delete和DeleteAll多选删除及全部删除；
 
-​		![image-20220812085029820](./asset/typora-user-images/image-20220812085029820.png)
+​		![image-20220812085029820](./.asset/typora-user-images/image-20220812085029820.png)
 
