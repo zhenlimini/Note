@@ -189,12 +189,7 @@ foreach (var name in query)
 
 
 
-> Thinking
-> **Answering LINQ inquiries**
-> Interestingly enough, I'm working through explaining if LINQ's Select method can filter data. This involves comparing its filtering capabilities to those of the Where method to clarify.
-> Thought for a couple of seconds
-
-当然可以！虽然 `Select` 操作符主要用于**投影**（即将每个元素转换为新的形式），但通过巧妙地使用条件语句，你也可以在 `Select` 中实现一定程度的数据过滤。不过，通常情况下，**`Where`** 操作符更适合用于数据过滤，因为它的设计初衷就是为了筛选满足特定条件的元素。
+虽然 `Select` 操作符主要用于**投影**（即将每个元素转换为新的形式），但通过巧妙地使用条件语句，你也可以在 `Select` 中实现一定程度的数据过滤。不过，通常情况下，**`Where`** 操作符更适合用于数据过滤，因为它的设计初衷就是为了筛选满足特定条件的元素。
 
 下面我将详细说明 `Select` 如何进行数据过滤，并与 `Where` 进行比较，以帮助你更好地理解两者的区别和应用场景。
 
@@ -276,6 +271,8 @@ foreach (var item in result)
 姓名: 赵六, 年龄: 23
 ```
 
+
+
 ## 为什么更推荐使用 `Where` 进行过滤
 
 虽然上述方法可以在一定程度上实现数据过滤，但 **`Where`** 操作符更适合用于筛选数据，原因如下：
@@ -308,6 +305,8 @@ foreach (var name in filteredNames)
 ```
 
 这种方式不仅语义明确，而且避免了在结果中出现不符合条件的元素或 `null` 值，代码也更加简洁易懂。
+
+
 
 ## 总结
 

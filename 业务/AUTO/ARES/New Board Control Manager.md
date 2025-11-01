@@ -1,6 +1,6 @@
 ## New Board Control Manager
 
-
+Ares![img](http://szaresweb.ptn.gwkf.cn/Images/Menu/icon_menu.gif)Maintain![img](http://szaresweb.ptn.gwkf.cn/Images/Menu/icon_menu.gif)FT Modules![img](http://szaresweb.ptn.gwkf.cn/Images/Menu/icon_menu.gif)FT Product/Machine Release System![img](http://szaresweb.ptn.gwkf.cn/Images/Menu/icon_page.gif)New Board Control Manager
 
 #### 1.功能描述
 
@@ -48,5 +48,5 @@
 
 - 用户可以在ARES页面释放板，使用Delete和DeleteAll多选删除及全部删除；
 
-​		![image-20220812085029820](./.asset/typora-user-images/image-20220812085029820.png)
+​		![image-20220812085029820](./.assets/typora-user-images/image-20220812085029820.png)
 
