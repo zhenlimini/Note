@@ -1,24 +1,101 @@
-## 项目说明
-
-此仓库为多领域学习与开发资料汇总，涵盖业务流程、开发环境搭建、中间件使用、编程语言示例以及行业技能要点。目录结构清晰，方便快速定位和查阅相关内容。
-
-
-
+# 学习笔记
+**道阻且长，行则将至。**
 ## 目录结构
-
-```
-业务
-技术
-```
-
-
-
-## 使用指南
-
-1. 克隆仓库：
-   ```bash
-   git clone <仓库地址>
-   ```
-2. 浏览目录，根据需求快速查阅对应模块文档或示例代码。
-3. 如需添加新内容，请按现有目录规范创建子目录，并在对应 README 或笔记中更新内容概述。
-
+- **技术**
+  - **C**
+    - **GDB**
+      - [[GDB]获取core文件信息](技术/C/GDB/[GDB]获取core文件信息.md)
+  - **dotnet**
+    - **API**
+      - [网络超时设定.NET](技术/dotnet/API/网络超时设定.NET.md)
+      - [InvokeWebService详解](技术/dotnet/API/InvokeWebService详解.md)
+      - [SocketHTTPTCPIP 关联使用实例](技术/dotnet/API/SocketHTTPTCPIP%20关联使用实例.md)
+      - [WebserviceWebAPI 开发调用协议代码实例](技术/dotnet/API/WebserviceWebAPI%20开发调用协议代码实例.md)
+    - **ASP.NET**
+      - [ASP.NET](技术/dotnet/ASP.NET/ASP.NET.md)
+    - **Async**
+      - [异步与多线程](技术/dotnet/Async/异步与多线程.md)
+      - [异步与Task](技术/dotnet/Async/异步与Task.md)
+      - [异步与UI操作](技术/dotnet/Async/异步与UI操作.md)
+      - [异步中的async和await工作原理](技术/dotnet/Async/异步中的async和await工作原理.md)
+    - **Base**
+      - [深拷贝&浅拷贝](技术/dotnet/Base/深拷贝&浅拷贝.md)
+      - [时间日期格式化异常原因及解决方案](技术/dotnet/Base/时间日期格式化异常原因及解决方案.md)
+      - [网络超时设定.NET](技术/dotnet/Base/网络超时设定.NET.md)
+      - [值&引用传递](技术/dotnet/Base/值&引用传递.md)
+      - [C# 可空类型与常用操作](技术/dotnet/Base/C#%20可空类型与常用操作.md)
+      - [C#异常处理写法与区别详解](技术/dotnet/Base/C#异常处理写法与区别详解.md)
+      - [DLL依赖缺失的运行状态](技术/dotnet/Base/DLL依赖缺失的运行状态.md)
+      - [foreach操作中的数据修改](技术/dotnet/Base/foreach操作中的数据修改.md)
+      - [Foreach循环中操作集合的异常分析与解决方案](技术/dotnet/Base/Foreach循环中操作集合的异常分析与解决方案.md)
+      - [SqlDataAdapter Fill填充](技术/dotnet/Base/SqlDataAdapter%20Fill填充.md)
+    - **CPP**
+      - [C++与C#](技术/dotnet/CPP/C++与C#.md)
+    - **Linq**
+      - [Linq_Where&Select](技术/dotnet/Linq/Linq_Where&Select.md)
+    - **ORM**
+      - **EFCore**
+        - [EFCore1 ：资源、包、版本](技术/dotnet/ORM/EFCore/EFCore1%20：资源、包、版本.md)
+    - **winform**
+      - [UI 操作的线程安全](技术/dotnet/winform/UI%20操作的线程安全.md)
+  - **Git**
+    - [【B】GitHub教程 Git Bash详细教程](技术/Git/【B】GitHub教程%20Git%20Bash详细教程.md)
+    - [Git 原理及操作培训文档](技术/Git/Git%20原理及操作培训文档.md)
+    - [Git搭建使用教程](技术/Git/Git搭建使用教程.md)
+  - **Linux**
+    - [GUI桌面环境](技术/Linux/GUI桌面环境.md)
+    - [Linux新FTP账户上传失败问题 - Linux文件权限知识](技术/Linux/Linux新FTP账户上传失败问题%20-%20Linux文件权限知识.md)
+    - [RDBI .NET 自动化环境搭建与测试流程](技术/Linux/RDBI%20.NET%20自动化环境搭建与测试流程.md)
+    - [VMware虚拟机安装以及全版本永久激活教程](技术/Linux/VMware虚拟机安装以及全版本永久激活教程.md)
+    - **Base**
+      - [快速指令集合](技术/Linux/Base/快速指令集合.md)
+    - **dotnet**
+      - [Linux机台 .Netcore环境搭建](技术/Linux/dotnet/Linux机台%20.Netcore环境搭建.md)
+    - **NIS**
+      - [NIS Master-slave Rlease Process - RDBI](技术/Linux/NIS/NIS%20Master-slave%20Rlease%20Process%20-%20RDBI.md)
+      - [NIS操作说明文档](技术/Linux/NIS/NIS操作说明文档.md)
+  - **Middleware**
+    - [中间件相关的基本概念](技术/Middleware/中间件相关的基本概念.md)
+- **业务**
+  - **API**
+    - [API-AI视觉检测数据采集](业务/API/API-AI视觉检测数据采集.md)
+    - [API-ARES-OA 温补签批](业务/API/API-ARES-OA%20温补签批.md)
+    - [API-BI Pretest,Map,Hold](业务/API/API-BI%20Pretest,Map,Hold.md)
+    - [API-JK客户 BIB和DSA数据](业务/API/API-JK客户%20BIB和DSA数据.md)
+    - [API-TetserPGM参数接口](业务/API/API-TetserPGM参数接口.md)
+  - **AUTO**
+    - **ARES**
+      - [JAM & ERROR](业务/AUTO/ARES/JAM%20&%20ERROR.md)
+      - [New Board Control Manager](业务/AUTO/ARES/New%20Board%20Control%20Manager.md)
+      - [sql](业务/AUTO/ARES/sql.md)
+    - **FT**
+      - [自动化时间校准方案](业务/AUTO/FT/自动化时间校准方案.md)
+      - [FT测试程序管控方式梳理](业务/AUTO/FT/FT测试程序管控方式梳理.md)
+      - [Tester自动化新框架需求分析](业务/AUTO/FT/Tester自动化新框架需求分析.md)
+    - **Linux**
+      - [Heats 存储NFS+FTP验证结果](业务/AUTO/Linux/Heats%20存储NFS+FTP验证结果.md)
+      - [Heats迁移存储操作汇总](业务/AUTO/Linux/Heats迁移存储操作汇总.md)
+      - [Heats迁移存储操作汇总表格](业务/AUTO/Linux/Heats迁移存储操作汇总表格.md)
+      - [Linux新FTP账户上传失败问题 - Linux文件权限知识](业务/AUTO/Linux/Linux新FTP账户上传失败问题%20-%20Linux文件权限知识.md)
+      - [NIS Master-slave Rlease Process - RDBI](业务/AUTO/Linux/NIS%20Master-slave%20Rlease%20Process%20-%20RDBI.md)
+      - [NIS Master-slave Rlease Process - Tester](业务/AUTO/Linux/NIS%20Master-slave%20Rlease%20Process%20-%20Tester.md)
+      - [NIS操作说明文档](业务/AUTO/Linux/NIS操作说明文档.md)
+      - [RDBI .NET 自动化环境搭建与测试流程](业务/AUTO/Linux/RDBI%20.NET%20自动化环境搭建与测试流程.md)
+    - **LS**
+      - [sql](业务/AUTO/LS/sql.md)
+    - **SECS**
+      - [EAPGUI](业务/AUTO/SECS/EAPGUI.md)
+    - **TDBI**
+      - [TDBI HOLD BIB RULE](业务/AUTO/TDBI/TDBI%20HOLD%20BIB%20RULE.md)
+  - **MES**
+    - **FT Common**
+      - [API](业务/MES/FT%20Common/API.md)
+      - [sql](业务/MES/FT%20Common/sql.md)
+    - **FT FNL**
+      - [API](业务/MES/FT%20FNL/API.md)
+  - **PTN**
+    - [绿带记忆知识点](业务/PTN/绿带记忆知识点.md)
+    - [绿带练习题精益笔记](业务/PTN/绿带练习题精益笔记.md)
+    - [绿带练习题DMAIC笔记](业务/PTN/绿带练习题DMAIC笔记.md)
+    - [绿带模拟题笔记](业务/PTN/绿带模拟题笔记.md)
+- **doc**
