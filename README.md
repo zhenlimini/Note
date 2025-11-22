@@ -30,6 +30,7 @@
     - **LS**
       - [sql](Business/AUTO/LS/sql.md)
     - **SECS**
+      - [EAP流程处理](Business/AUTO/SECS/EAP流程处理.md)
       - [EAPGUI](Business/AUTO/SECS/EAPGUI.md)
     - **TDBI**
       - [TDBI HOLD BIB RULE](Business/AUTO/TDBI/TDBI%20HOLD%20BIB%20RULE.md)
@@ -74,11 +75,17 @@
       - [SqlDataAdapter Fill填充](Tech/dotnet/Base/SqlDataAdapter%20Fill填充.md)
     - **CPP**
       - [C++与C#](Tech/dotnet/CPP/C++与C#.md)
+    - **DI**
+      - [1.什么是依赖注入](Tech/dotnet/DI/1.什么是依赖注入.md)
+      - [2.依赖注入与控制反转](Tech/dotnet/DI/2.依赖注入与控制反转.md)
+      - [3.依赖注入的优势](Tech/dotnet/DI/3.依赖注入的优势.md)
     - **Linq**
       - [Linq_Where&Select](Tech/dotnet/Linq/Linq_Where&Select.md)
     - **ORM**
       - **EFCore**
         - [EFCore1 ：资源、包、版本](Tech/dotnet/ORM/EFCore/EFCore1%20：资源、包、版本.md)
+    - **Thread**
+      - [ManualResetEvent线程状态](Tech/dotnet/Thread/ManualResetEvent线程状态.md)
     - **winform**
       - [UI 操作的线程安全](Tech/dotnet/winform/UI%20操作的线程安全.md)
   - **Git**
